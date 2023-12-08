@@ -1,0 +1,4 @@
+-- 중복되는 이름(NAME) 제거
+SELECT
+    COUNT(DISTINCT NAME) count
+FROM ANIMAL_INS
